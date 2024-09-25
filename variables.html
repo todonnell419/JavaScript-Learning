@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        //let means we're declaring a variable, variable is the name, the assignments operator (equal sign), and the string (in "")
+        let name = "Mark"; //String variable
+        let age = 48; //Integer variable
+        let gpa = 3.89; //Floating variable
+        const hometown = "Clinton Township";
+
+        let ismarkCool = true; //boolean variable holds either true or false
+        let family = ["Monica", "Tom", "Brad", "Jordan", "Toothless"] //object variable
+
+        //document.getElementById("output").innerHTML = name + " is " +age + " years old and is from " + hometown;
+        // + sign does a lot of extra stuff besides just add, concatination
+
+        gpa = 3.2; //Reassigned the value of GPA
+        //Cannot change value of a constant
+        //hometown = "Ann Arbor";
+
+        document.getElementById("output").innerHTML = family;
+        console.log(family);
+
+
+    </script>
+</body>
+</html>
